@@ -10,7 +10,7 @@ if __name__ == "__main__":
     operator = sys.argv[2]
     if operator == '+':
         result = add(a, b)
-    elif operator == '*':
+    elif operator == '-':
         result = sub(a, b)
     elif operator == '*':
         result = mul(a, b)
