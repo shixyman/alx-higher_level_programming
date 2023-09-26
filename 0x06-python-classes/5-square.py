@@ -3,7 +3,8 @@
 
 
 class Square:
-    """ square class :
+    """Represents a square
+    Attributes:
         __size (int): size of a side of the square
     """
     def __init__(self, size=0):
@@ -34,7 +35,7 @@ class Square:
     def size(self, value):
         """setter of __size
         Args:
-            value (int): the size of a size of the square
+            value (int): size of a side of the square
         Returns:
             None
         """
@@ -45,6 +46,7 @@ class Square:
                 raise ValueError("size must be >= 0")
             else:
                 self.__size = value
+
     def my_print(self):
         """prints the square
         Returns:
