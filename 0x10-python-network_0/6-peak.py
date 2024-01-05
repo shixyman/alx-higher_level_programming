@@ -7,7 +7,7 @@ def find_peak(list_of_integers):
     lint = list_of_integers
     lgt = len(lint)
     if lgt == 0:
-        return
+        return None 
     m = lgt // 2
     if (m == lgt - 1 or lint[m] >= lint[m + 1]) and (m == 0 or lint[m] >= lint[m - 1]):
         return lint[m]
